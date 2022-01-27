@@ -2,7 +2,7 @@ const express = require('express');
 const http = require('http');
 const WebSocket = require('ws');
 
-const port = 6969;
+const port = gevorg1990.github.io/socet/;
 const server = http.createServer(express);
 const wss = new WebSocket.Server({ server })
 
