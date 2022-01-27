@@ -31,7 +31,8 @@
         ws.close();
       }
 
-      ws = new WebSocket('ws://localhost:6969', 'echo-protocol');
+//       ws = new WebSocket('ws://localhost:6969', 'echo-protocol');
+      const ws = new WebSocket("wss://" + location.host + "/")
       ws.onopen = () => {
         console.log('Connection opened!');
       }
